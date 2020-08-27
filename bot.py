@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-TOKEN = os.getenv('NzQxMjI1Njg1MTQxNjg0MjU0.Xy0eNg.7xq_4hGPqoFckGq6PGzD6zCqw-Y')
+TOKEN = os.getenv('bot-token-here')
 
 client = discord.Client()
 
@@ -27,4 +27,4 @@ async def on_message(message):
         print("sent your random number is: "+ strrandnum +" ")
     
 
-client.run("NzQxMjI1Njg1MTQxNjg0MjU0.Xy0eNg.7xq_4hGPqoFckGq6PGzD6zCqw-Y")
+client.run("bot-token-here")
